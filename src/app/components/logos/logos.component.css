@@ -1,0 +1,41 @@
+#logo{
+    width: 250px;
+}
+.redes{
+    margin-right: 10px;
+    
+}
+.boton{
+    background-color: transparent;
+    height: 25px;
+    margin-top: 20px;
+    width: 55px;
+    border: 0;
+    
+    
+}
+.redsocial{
+    height: 45px;
+    margin-top: -10px;
+    padding: 5px;
+    
+    
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 5px;
+}
+
+@media (max-width:450px){
+    .container{
+        display: block; 
+    }
+    #logo{
+        align-items: center;
+    }
+    .redsocial{
+        align-items: center;
+    }
+}
